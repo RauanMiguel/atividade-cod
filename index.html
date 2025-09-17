@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    
+    <form action="resposta.html" method="get">
+        
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="irmaos">Quantidade de Irmãos:</label>
+        <input type="number" id="irmaos" name="irmaos" min="0">
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <br><br>
+
+        
+        <p>Qual(is) é(são) sua(s) comida(s) preferida(s)? (Escolha mais de uma opção, se desejar)</p>
+        <input type="checkbox" id="pizza" name="comida" value="Pizza">
+        <label for="pizza">Pizza</label><br>
+
+        <input type="checkbox" id="hamburguer" name="comida" value="Hamburguer">
+        <label for="hamburguer">Hamburguer</label><br>
+
+        <input type="checkbox" id="sushi" name="comida" value="Sushi">
+        <label for="sushi">Sushi</label><br>
+
+        <input type="checkbox" id="feijoada" name="comida" value="Feijoada">
+        <label for="feijoada">Feijoada</label><br><br>
+
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
